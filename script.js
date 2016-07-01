@@ -29,6 +29,9 @@ module.exports = new Script({
         receive: (bot, message) => {
             
             console.log(bot);
+            console.log(message);
+            
+            alert(bot);
 
             let upperText = message.text.trim().toUpperCase();
 

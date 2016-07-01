@@ -5,5 +5,5 @@
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, EstherBot is back.",
     "HI": "sup there!",
-    "ADD A MEAL": "I'd like to add a meal please"
+    "MENU": "Here are your choices. %[Add a meal](postback:addmeal)"
 }

@@ -20,7 +20,8 @@ module.exports = new Script({
     
     addmeal: {
         receive: (bot) => {
-            return bot.say('Awesome, lets do it!');
+            return bot.say('Awesome, lets do it!')
+                .then(() => 'speak');
         }  
     },
 

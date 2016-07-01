@@ -17,6 +17,12 @@ module.exports = new Script({
                 .then(() => 'speak');
         }
     },
+    
+    addmeal: {
+        receive: (bot) => {
+            return bot.say('Awesome, lets do it!');
+        }  
+    },
 
     speak: {
         receive: (bot, message) => {
